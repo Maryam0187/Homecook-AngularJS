@@ -1,4 +1,6 @@
-# Assignment4
+# HomeCook
+
+# HomeCook is an online business that provides home cooked food to the customers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
