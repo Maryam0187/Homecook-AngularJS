@@ -1,0 +1,17 @@
+<div class="card" *ngFor="let food of foods" routerLink="/detail/{{food.id}}" >
+    <div style="border:2px solid black ; border-radius: 5px; background-color:#7096bd">
+    </div>
+    <br />
+    <img src="{{food.foodPicture}}" width="50%" height="50%">
+    <br />
+    <div>
+        <h3 class="display-4 ml-5">
+          Price:{{food.Price}}
+        </h3>
+        <p class="text-muted ml-5">
+          No of people : {{food.number_of_people}}
+            
+        </p>
+
+    </div>
+</div>
